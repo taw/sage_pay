@@ -27,8 +27,8 @@ gateway for accepting credit card payments through your web app.
   s.rdoc_options = ["--charset=UTF-8"]
   s.extra_rdoc_files = %w[README.md LICENSE]
 
-  s.add_dependency('activesupport', [">= 3.1.3"])
-  s.add_dependency('activemodel',   [">= 3.1.0"])
+  s.add_dependency('activesupport', [">= 4"])
+  s.add_dependency('activemodel',   [">= 4"])
   s.add_dependency('uuid',          [">= 2.3.0"])
   s.add_dependency('i18n',          [">= 0.6.0"])
 
